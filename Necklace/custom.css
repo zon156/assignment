@@ -1,0 +1,60 @@
+.logo_img{
+	width: 100px;
+	height: 90px;
+}
+.logo_text{
+	margin-left: -15px;
+	margin-top: 15px;
+}
+@font-face{
+	font-family: lobster;
+	src:url(../../lobster/Loboster-Regular.ttf);
+}
+.carousel_text{
+	position: absolute;
+	top: 180px;
+	left: 150px;
+}
+.font_style{
+	font-family: lobster;
+}
+.divided_by{
+	max-width: 6rem;
+	border-width: .2rem;
+	border-color: cyan;
+}
+.background_img{
+	background-image: url(images/bb.jpeg);
+	height: 250px;
+	background-attachment: fixed;
+}
+hr.divided{
+	max-width: 6rem;
+	border-color: white;
+}
+.black{
+	position: absolute;
+	top: 70px;
+	left: 70px;
+}
+
+/*pulgIn*/
+/*h2{
+  text-align:center;
+  padding: 20px;
+}*/
+/* Slider */
+
+h2{
+  text-align:center;
+  padding: 20px;
+}
+
+.Img:hover {
+  border: 1px solid #999999;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+
+

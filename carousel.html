@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carousel</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+	<h1 class="text-center text-danger my-5">Carousel</h1>
+
+	<div class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="images/c.jpg" class="img-fluid w-100">
+			</div>
+			<div class="carousel-item">
+				<img src="images/d.jpg" class="img-fluid w-100">
+			</div>
+		</div>
+	</div>
+
+	<!-- control icon carousel -->
+	<h1 class="text-center text-danger">Control Carousel</h1>
+
+	<div class="carousel slide" data-ride="carousel" id="Carousel">
+		<ol class="carousel-indicators">
+		    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#Carousel" data-slide-to="1"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="images/c.jpg" class="img-fluid w-100">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>First Slide</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="images/d.jpg" class="img-fluid w-100">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>First Slide</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+		</div>
+		<a href="#Carousel" class="carousel-control-prev" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a href="#Carousel" class="carousel-control-next" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+	</div>
+
+	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
